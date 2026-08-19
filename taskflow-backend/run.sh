@@ -1,2 +1,2 @@
-./mvnw spring-boot:run
-./mvnw test
+./mvnw clean compile
+./mvnw clean spring-boot:run

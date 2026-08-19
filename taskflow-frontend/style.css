@@ -108,3 +108,41 @@ button:hover {
   font-size: 0.85rem;
   margin-bottom: 10px;
 }
+
+/* Topbar */
+
+.topbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+  color: #202124;
+}
+
+.topbar nav {
+  display: flex;
+  gap: 8px;
+}
+
+.topbar nav a {
+  text-decoration: none;
+  color: #5f6368;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.topbar nav a:hover {
+  background: #e8eaed;
+}
+
+.topbar nav a.active {
+  background: #e8f0fe;
+  color: #1a73e8;
+}
